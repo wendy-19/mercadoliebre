@@ -1,0 +1,124 @@
+@media (min-width: 700px){
+*{
+  box-sizing: border-box;
+}
+
+.ultima-visita-ofertas{
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  background-color: #ebebeb;
+  margin: 0 0%;
+  padding: 20px 90px;
+  }
+
+.pantalla {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  background-color: #ebebeb;
+  margin: 0 0%;
+}
+
+.articulo {
+  display: flex;
+  align-content: flex-start;
+  width: 20%;
+  background-color: white;
+  margin: 15px;
+  flex-direction: column;
+  padding: 0px;
+  visibility: hidden;
+  transition: all .3s ease-in-out;
+}
+ 
+.articulo:hover{
+  visibility: visible;
+  box-shadow: 0 0 .25rem rgba(20, 20, 20, 0.7);
+}  
+
+.articulo img{
+  display:block;
+  margin:auto;
+  visibility: visible;
+}
+
+  #cafetera-interno,
+  #macbook-pro-interno,
+  #samsung-s10-interno,
+  #tv-samsung-interno{
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    background-color: white;
+    padding-left:15px;
+    border-top: solid 1px #ebebeb;
+    margin: 0px;
+}
+
+.precios{
+  display: inline;
+  margin-top: 5px;
+  font-size: 19px;
+  margin-bottom: 10px;
+ }
+.descuentos{
+  display: inline;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #39b54a;
+ }
+ .descripciones{
+  font-size: 16px;
+  margin-bottom: 10px;
+ }
+
+ .camion{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  color: #39b54a;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+ }
+
+}
+
+.contenedor {
+  background-color: #ebebeb;
+  margin-left: 33.33%;
+  margin-right: 33.33%;
+  margin-top: 160px;
+
+}
+
+.registro {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.perfil-usuario {
+  background-color: #ebebeb;
+  margin-left: 33.33%;
+  margin-right: 33.33%;
+}
+
+.login {
+
+  padding: 80px;
+  height: 60%;
+  margin-left: 33.33%;
+  margin-right: 33.33%;
+  background-color: #ebebeb;
+  text-align: center;
+  margin-top: 160px;
+
+}
+
+.intereses {
+  display: flex;
+  flex-direction: column;
+  margin-left: 42%;
+}

@@ -1,0 +1,54 @@
+@media (min-width: 700px){
+*{
+  box-sizing: border-box;
+}
+.footer{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    margin: 5% 10% 0% 10%;
+    font-size: 0.8rem;
+    gap: 10%;
+  
+  }
+  
+  .fa-credit-card icono,
+  .fas fa-gift regalo,
+  .fas fa-user-shield seguridad {
+      justify-content: center;
+  }
+  
+  
+  .icono {
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: blue;
+  
+  }
+  
+  .logo {
+      height: 50px;
+  }
+  
+  .justificar {
+      margin: 0 50px;
+      padding: 0px;
+      color: blue;
+      font-size: 30px;
+  }
+  
+  .regalo {
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: blue;
+  }
+  
+  .seguridad {
+      display: flex;
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: blue;
+      justify-content: center;
+  }
+}

@@ -1,0 +1,252 @@
+@media (min-width: 700px){
+*{
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.mi-header {
+   background-color: #EAC926;
+   font-family: 'Roboto', sans-serif;
+   display: flex;
+   flex-direction: column;
+   padding: 15px 20px;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   height: 130px;
+}
+
+.parte-superior,
+.parte-inferior {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 40px;
+   margin-right: 40px;
+}
+
+.mi-h2 {
+   display: flex;
+   text-align: center;
+   color: black;
+   font-size: 16px;
+}
+
+.banner {
+   display: flex;
+   margin-bottom: 0px;
+   margin-top: 100px;
+}
+
+.button{
+   color: white;
+   background-color: #03264C;;
+   border: solid #03264C;;
+   margin-bottom: 5px;
+   border-radius: 5px;
+   font-size: 18px;
+   text-align: center;
+   } 
+
+.text-uno {
+   display: flex;
+   align-content: flex-start;
+   flex-direction: row;
+   list-style: none;
+   gap: 30px;
+   margin-right: 250px;
+   font-size: 16px;
+   padding: 15px;
+   text-align: right;
+}
+ 
+.text-uno a:hover{
+   color: rgb(78, 78, 78);
+}
+
+.text-dos {
+   display: flex;
+   align-content: flex-start;
+   flex-direction: row;
+   list-style: none;
+   text-decoration: none;
+   gap: 30px;
+   font-size: 16px;
+}
+
+.text-dos a:hover{
+   color: rgb(78, 78, 78);
+}
+
+.text-dos a,
+.text-uno a{ 
+   text-decoration: none;
+   color: black;
+}
+
+.barra-busqueda {
+
+   display: flex;
+   flex-direction: column;
+   padding: 10 40px 10 25px;
+   position: center;
+   margin: 0px auto;
+   align-content: center;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+}
+
+
+@media (min-width: 100px){
+   body {
+      margin: 0;
+      padding: 0;
+   }
+
+   .mi-header{
+      background-color: #EAC926;
+      font-family: 'Roboto', sans-serif;
+   }
+
+   .barra-busqueda{
+      display: flex;
+      flex-direction: column;
+      padding: 10 40px 10 25px;
+      position: center;
+      margin: 0px auto;
+      align-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      
+   }
+   .mi-h2{
+      text-align: center;
+      color: black;
+      font-size: 16px;
+   }
+   .button{
+   display: block;
+   color: white;
+   background-color: #03264C;;
+   border: solid #03264C;;
+   margin-bottom: 5px;
+   border-radius: 5px;
+   font-size: 18px;
+   text-align: center;
+   margin: auto;
+   }
+   .text-uno{
+      list-style: none;
+      text-decoration: none;
+      font-size: 16px;
+      color: black;
+   }
+   .text-dos {
+      list-style: none;
+      text-decoration: none;
+      font-size: 16px;
+   }
+  
+  .text-dos a,
+  .text-uno a{ 
+   text-decoration: none;
+   color: black;
+}
+
+.banner img{
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+}
+
+ .ultima-visita-ofertas{
+     font-family: 'Roboto', sans-serif;
+     color: #666;
+     margin: 0 0%;
+     padding: 20px 90px;
+     }
+ 
+   .pantalla {
+     font-family: 'Roboto', sans-serif;
+     text-align: center;
+     background-color: #ebebeb;
+     margin: 0 0%;
+     display: inline;
+   }
+ 
+   #cafetera-interno,
+   #macbook-pro-interno,
+   #samsung-s10-interno,
+   #tv-samsung-interno{
+     width: 260px;
+     margin: auto;
+     background-color: white;
+     flex-direction: column;
+     margin-bottom: 60px;
+   }
+ 
+   .precios{
+     display: inline;
+     margin-top: 5px;
+     font-size: 19px;
+     margin-bottom: 10px;
+    }
+   .descuentos{
+     display: inline;
+     font-size: 16px;
+     margin-bottom: 10px;
+     color: #39b54a;
+    }
+    .descripciones{
+     font-size: 16px;
+     margin-bottom: 10px;
+    }
+   
+    .camion{
+     display: block;
+     font-size: 15px;
+     padding: 5px;
+     width: 20px;
+     height: 20px;
+     color: #39b54a;
+     border: 1px solid #39b54a;
+     background-color: #FFF;
+     border-radius: 50%;
+    }
+
+    .footer{
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      font-size: 0.8rem;
+      padding-top: 40px;
+    }
+
+    .fa-credit-card icono,
+   .fas fa-gift regalo,
+   .fas fa-user-shield seguridad {
+    margin: auto;
+}
+.icono {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: blue;
+ }
+
+ .regalo {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.seguridad {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+}
